@@ -5,6 +5,7 @@ public class SiswaTester {
         Siswa rabbani = new Siswa();
         Siswa davin = new Siswa();
         Siswa nafis = new Siswa();
+        Siswa anak = new Siswa(20, "Tuak", 80.5);
         arkan.id = 22;
         arkan.nama = "Muhammad Arkan Mariadi";
         arkan.ipk = 90.5;
@@ -34,6 +35,8 @@ public class SiswaTester {
         rabbani.print();
         System.out.println("--------");
         ito.print();
+        System.out.println("--------");
+        anak.print();
         System.out.println("--------");
     }
 

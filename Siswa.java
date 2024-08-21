@@ -3,16 +3,27 @@ public class Siswa {
     String nama;
     double ipk;
 
+    // Default Construct
     public Siswa() {
         id = 0;
         nama = "null";
         ipk = 0.0;
     }
 
+    // Params Construct
+
+    public Siswa(int i, String n, double k) {
+        id = i;
+        nama = n;
+        ipk = k;
+    }
+
     // Getter
 
 
     // Setter
+
+
 
     // Method
 
