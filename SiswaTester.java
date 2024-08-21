@@ -8,7 +8,7 @@ public class SiswaTester {
         Siswa anak = new Siswa(20, "Tuak", 80.5);
         arkan.id = 22;
         arkan.nama = "Muhammad Arkan Mariadi";
-        arkan.ipk = 90.5;
+        arkan.ipk = 97.5;
 
         nafis.id = 25;
         nafis.nama = "Nafis Dwi Harits";
